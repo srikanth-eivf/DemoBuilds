@@ -50,15 +50,17 @@
             lblVersion.Name = "lblVersion";
             lblVersion.Size = new Size(35, 20);
             lblVersion.TabIndex = 1;
-            lblVersion.Text = "v1.0";
+            lblVersion.Text = "v2.0";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Menu;
             ClientSize = new Size(800, 450);
             Controls.Add(lblVersion);
             Controls.Add(label1);
+            ForeColor = Color.Tomato;
             Name = "Form1";
             Text = "CertDemoApp";
             Load += Form1_Load;
