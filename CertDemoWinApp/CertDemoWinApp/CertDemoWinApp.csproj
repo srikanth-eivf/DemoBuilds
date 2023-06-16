@@ -6,6 +6,10 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>CertDemoWinApp_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>False</DelaySign>
+    <StartupObject>CertDemoWinApp.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
